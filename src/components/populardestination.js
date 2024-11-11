@@ -1,5 +1,5 @@
 import React from 'react';
-import image1 from '../assets/images/popular-1.jpg';
+import image1 from '../assets/images/tt.png';
 import image2 from '../assets/images/popular-2.jpg';
 import image3 from '../assets/images/taj mahar.avif';
 const PopularDestinations = () => {
@@ -21,11 +21,11 @@ const PopularDestinations = () => {
                   <div class="card-rating"><star/>
                   </div>
                   <p class="card-subtitle">
-                    <a href="#">Italy</a>
+                    <a href="\">Italy</a>
                   </p>
 
                   <h3 class="h3 card-title">
-                    <a href="#">San miguel</a>
+                    <a href="\">San miguel</a>
                   </h3>
 
                   <p class="card-text">
@@ -50,11 +50,11 @@ const PopularDestinations = () => {
                   </div>
 
                   <p class="card-subtitle">
-                    <a href="#">Dubai</a>
+                    <a href="\">Dubai</a>
                   </p>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Burj khalifa</a>
+                    <a href="\">Burj khalifa</a>
                   </h3>
 
                   <p class="card-text">
@@ -79,11 +79,11 @@ const PopularDestinations = () => {
                   </div>
 
                   <p class="card-subtitle">
-                    <a href="#">Japan</a>
+                    <a href="\">Japan</a>
                   </p>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Kyoto temple</a>
+                    <a href="\">Kyoto temple</a>
                   </h3>
 
                   <p class="card-text">
