@@ -1,7 +1,7 @@
 import React from 'react';
 import image1 from '../assets/images/popular-1.jpg';
 import image2 from '../assets/images/popular-2.jpg';
-import image3 from '../assets/images/popular-3.jpg';
+import image3 from '../assets/images/taj mahar.avif';
 const PopularDestinations = () => {
   return (
     <section className="popular" id="destination">
