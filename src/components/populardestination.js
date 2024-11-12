@@ -1,6 +1,6 @@
 import React from 'react';
-import image1 from '../assets/images/popular-1.jpg';
-import image2 from '../assets/images/popular-2.jpg';
+import image1 from '../assets/images/bhubaneshwar.jpg';
+import image2 from '../assets/images/red fort.jpg';
 import image3 from '../assets/images/taj mahar.avif';
 const PopularDestinations = () => {
   return (
@@ -21,15 +21,15 @@ const PopularDestinations = () => {
                   <div class="card-rating"><star/>
                   </div>
                   <p class="card-subtitle">
-                    <a href="#">Italy</a>
+                    <a href="#">Odisha</a>
                   </p>
 
                   <h3 class="h3 card-title">
-                    <a href="#">San miguel</a>
+                    <a href="#">Bhubaneshwar</a>
                   </h3>
 
                   <p class="card-text">
-                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  A vibrant metropolis renowned for its rich cultural heritage.
                   </p>
 
                 </div>
@@ -50,15 +50,15 @@ const PopularDestinations = () => {
                   </div>
 
                   <p class="card-subtitle">
-                    <a href="#">Dubai</a>
+                    <a href="#">Delhi</a>
                   </p>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Burj khalifa</a>
+                    <a href="#">Red Fort</a>
                   </h3>
 
                   <p class="card-text">
-                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  A symbol of the Mughal Empire's architectural legacy.
                   </p>
 
                 </div>
@@ -79,15 +79,15 @@ const PopularDestinations = () => {
                   </div>
 
                   <p class="card-subtitle">
-                    <a href="#">Japan</a>
+                    <a href="#">Agra</a>
                   </p>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Kyoto temple</a>
+                    <a href="#">Taj Mahal</a>
                   </h3>
 
                   <p class="card-text">
-                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  An ivory-white marble mausoleum on the south bank of the Yamuna river.
                   </p>
 
                 </div>
