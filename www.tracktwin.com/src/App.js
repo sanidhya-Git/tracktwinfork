@@ -7,13 +7,14 @@ import Packages from './components/package';
 import Gallery from './components/gallery';
 import CTA from './components/cta';
 import Footer from './components/footer';
+import BookingBox from './components/BookingBox';
 
 function App() {
   return (
     <div>
       <Header />
       <Hero />
-      <TourSearch />
+      <BookingBox />
       <PopularDestinations />
       <Packages />
       <Gallery />

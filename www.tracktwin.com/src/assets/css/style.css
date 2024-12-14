@@ -1439,3 +1439,103 @@
     .container { max-width: 1180px; }
   
   }
+
+
+/* booking */
+/* src/BookingBox.css */
+/* src/BookingBox.css */
+/* src/BookingBox.css */
+.booking-box {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 800px; /* Increased width for horizontal layout */
+  margin: 20px auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.booking-box h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.travel-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.travel-button {
+  flex: 1;
+  padding: 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  color: #555;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.travel-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.travel-button:hover {
+  background-color: #e0e0 e0;
+}
+
+.booking-form {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1 1 20%; /* Allow flexibility and set a base width */
+  margin-right: 10px; /* Space between form groups */
+}
+
+.form-group:last-child {
+  margin-right: 0; /* Remove margin for the last item */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit-button {
+  flex: 1 1 100%; /* Full width for the submit button */
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
