@@ -16,7 +16,8 @@ function App() {
       <TourSearch />
       <PopularDestinations />
       <Packages />
-      <Gallery />   
+      <Gallery />
+      <CTA />
       <Footer />
     </div>
   );
