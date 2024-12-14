@@ -94,11 +94,7 @@ const Header = () => {
 
     <li>
       <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
-    </li>
-
-    <li>
-      <a href="https://in.bookmyshow.com/events/karan-aujla-it-was-all-a-dream-jaipur/ET00410683/ticket?venueCode=VTBJ&date=20241229&time=1830" class="navbar-link" data-nav-link>consert ticket</a>
-    </li>
+    </li>    
 
   </ul>
 

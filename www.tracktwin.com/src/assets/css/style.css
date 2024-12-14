@@ -374,49 +374,90 @@
   /*-----------------------------------*\
    * #HERO
   \*-----------------------------------*/
-  
   .hero {
-    animation: slideBackground 15s infinite; /* Adjust duration as needed */
+    position: relative;
+    overflow: hidden; /* Hide overflow to prevent showing the extra images */
+    background-image: url("../images/bac 4.png"); /* Set a single background image */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-color: hsla(0, 0%, 0%, 0.7); */
-    background-blend-mode: overlay;
     display: grid;
     place-items: center;
     min-height: 600px;
     text-align: center;
     padding-top: 125px;
-  }
-  @keyframes slideBackground {
-    0% {
-      background-image: url("../images/bac 4.png");
-    }
-    50% {
-      background-image: url("../images/hero-banner.png");
-    }  
-    100% {
-      background-image: url("../images/bac 4.png");
-    }
-  }
-  
-  .hero-title { margin-bottom: 20px; }
-  
-  .hero-text {
+}
+
+.hero-title { 
+    margin-bottom: 20px; 
+}
+
+.hero-text {
     color: var(--white);
     font-size: var(--fs-5);
     margin-bottom: 40px;
-  }
-  
-  .btn-group {
+}
+
+.btn-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 10px;
-  }
-  
-  
+}
+
+/* Media Queries */
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+    .hero {
+        min-height: 400px; /* Adjust height for mobile */
+        padding-top: 50px; /* Reduce padding for mobile */
+    }
+
+    .hero-title {
+        font-size: var(--fs-4); /* Adjust font size for mobile */
+    }
+
+    .hero-text {
+        font-size: var(--fs-6); /* Adjust font size for mobile */
+        margin-bottom: 20px; /* Reduce margin for mobile */
+    }
+}
+
+/* Tablet Devices */
+@media (min-width: 601px) and (max-width: 900px) {
+    .hero {
+        min-height: 500px; /* Adjust height for tablet */
+        padding-top: 75px; /* Adjust padding for tablet */
+    }
+
+    .hero-title {
+        font-size: var(--fs-3); /* Adjust font size for tablet */
+    }
+
+    .hero-text {
+        font-size: var(--fs-5); /* Adjust font size for tablet */
+        margin-bottom: 30px; /* Adjust margin for tablet */
+    }
+}
+
+/* Desktop Devices */
+@media (min-width: 901px) {
+    .hero {
+        min-height: 600px; /* Maintain height for desktop */
+        padding-top: 125px; /* Maintain padding for desktop */
+    }
+
+    .hero-title {
+        font-size: var(--fs-2); /* Adjust font size for desktop */
+    }
+
+    .hero-text {
+        font-size: var(--fs-5); /* Maintain font size for desktop */
+        margin-bottom: 40px; /* Maintain margin for desktop */
+    }
+}
   
   
   
