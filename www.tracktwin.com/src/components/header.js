@@ -1,6 +1,6 @@
 import React from 'react';
-import { IonIcon } from '@ionic/react'; // Update the import statement
-import logo from '../assets/images/upper logo.png'; // Adjust the path as necessary
+import { IonIcon } from '@ionic/react';
+import logo from '../assets/images/upper logo.png'; 
 import { InstagramIcon, LinkedInIcon, PhoneIcon, TwitterIcon, YoutubeIcon  } from '../assets/icons';
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
         <div className="container">
           <a href="+91 9785701319" className="helpline-box">
             <div className="icon-box">
-              {/* <IonIcon name="call-outline" /> */}
+              
               <PhoneIcon className= "w-5 h-5"/>
             </div>
             <div className="wrapper">

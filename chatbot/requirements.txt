@@ -1,2 +1,0 @@
-# Example (if you need Flask or any other library in the future)
-Flask==2.0.1
